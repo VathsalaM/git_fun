@@ -1,0 +1,44 @@
+{
+  "name": "git_fun",
+  "version": "1.0.0",
+  "description": "This is an app wich gives visualisation on github repository",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "min": "mocha -R min --recursive",
+    "watch": "mocha -R --watch --recursive",
+    "start": "node serer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gihub.com/VathsalaM/git_fun.git"
+  },
+  "keywords": [
+    "git"
+  ],
+  "author": "Vathsala_M",
+  "lisence": "UNLISENCED",
+  "bugs": {
+    "url": "https://github.com/VathsalaM/git_fun/issues"
+  },
+  "homepage": "httpss://github.com/VathsalaM/git_fun#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "sinon": "^1.17.2",
+    "supertest": "^1.1.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "lodash": "^3.10.1",
+    "github-api": "2.3.0"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "npm": ">=1.2.0"
+  }
+}
