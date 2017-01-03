@@ -1,0 +1,14 @@
+{
+  "owner" : "Vathsala",
+  "repos" : [
+    {
+      "name":"sample",
+      "languages":[
+        {
+          "name":"ruby",
+          "percent":20
+        }
+      ]
+    }
+  ]
+}
